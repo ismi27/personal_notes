@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
 :root {
     --darkGray: #2d3748;
     --gray: #4a5568;
@@ -106,10 +109,10 @@
     object-fit: cover;
     width: 40%;
 }
+
 .description-container:hover img {
     transform: scale(1.1);
 }
-
 
 .description-left-footer {
     display: flex;
@@ -180,13 +183,13 @@
     color: white;
     border-radius: 5px;
     font-weight: 600;
-    
 }
 
-.btn:hover{
+.btn:hover {
     transform: translateY(-5px);
     background: #5a7c8d;
 }
+
 footer {
     background-image: url(bg-lp4.png);
     width: auto;
@@ -223,7 +226,6 @@ footer>div {
         width: 100%;
         height: 100%;
         transition: transform .5s ease;
-
     }
     .hero-container:hover img {
         transform: scale(1.1);
@@ -261,9 +263,7 @@ footer>div {
     }
     .description-container:hover img {
         transform: scale(1.1);
-
     }
-   
     nav>.nav-menu {
         display: none;
     }

@@ -7,7 +7,7 @@ session_start();
 error_reporting(0);
 
 if (isset($_SESSION['username'])) {
-    header("Location: login.php");
+    // header("Location: login.php");
 }
 
 if (isset($_POST['submit'])) {
@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
     if ($result->num_rows > 0) {
         $row = mysqli_fetch_assoc($result);
         $_SESSION['username'] = $row['username'];
-        header("Location: login.php");
+        // header("Location: login.php");
     } else {
         echo "<script>alert('Woops! Email or Password is Wrong.')</script>";
     }
@@ -36,10 +36,10 @@ if (isset($_POST['submit'])) {
         body {
             position: relative;
             width: auto;
-            min-height: 100vh;
+            min-height: auto;
             background-image: url(bg-login.png);
             background-position: center;
-            background-size: cover;
+            background-size: contain;
             justify-content: right;
             align-items: center;
         }
@@ -50,6 +50,17 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
+    <nav class="navbar">
+        <h1>Personal Notes</h1>
+        <div class="nav-menu">
+            <a href="landingpage.php"><button class="btn" style="background: transparent; color: black">Home</button></a>
+            <div class="input-group">
+                <a href="aboutus.php"><button class="btn" style="background: transparent; color: black">About Us</button></a>
+            </div>
+            <a href="login.php"><button class="btn">Log In</button></a>
+        </div>
+
+    </nav>
     <div class="container">
         <form action="" method="POST" class="login-email">
             <div class="input-group">

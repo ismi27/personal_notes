@@ -7,7 +7,7 @@ error_reporting(0);
 session_start();
 
 if (isset($_SESSION['username'])) {
-    header("Location: login.php");
+    // header("Location: login.php");
 }
 
 if (isset($_POST['submit'])) {
@@ -56,7 +56,7 @@ if (isset($_POST['submit'])) {
         body {
             position: relative;
             width: auto;
-            min-height: 100vh;
+            min-height: auto;
             background-image: url(bg-register.png);
             background-position: center;
             background-size: cover;
@@ -68,6 +68,17 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
+    <nav class="navbar">
+        <h1>Personal Notes</h1>
+        <div class="nav-menu">
+            <a href="landingpage.php"><button class="btn" style="background: transparent; color: black">Home</button></a>
+            <div class="input-group">
+                <a href="aboutus.php"><button class="btn" style="background: transparent; color: black">About Us</button></a>
+            </div>
+            <a href="login.php"><button class="btn">Log In</button></a>
+        </div>
+
+    </nav>
     <div class="container">
         <form action="" method="POST" class="login-email">
             <div class="input-group">
