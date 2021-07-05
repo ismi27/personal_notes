@@ -24,7 +24,7 @@
         </div>
         <div class="personal">
             <button class="btn">
-                <h1 onclick="location.href='register.php';">P E R S O N A L</h1>
+                <h1 onclick="location.href='personalpage.php';">P E R S O N A L</h1>
             </button>
 
         </div>

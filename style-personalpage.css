@@ -1,0 +1,61 @@
+* {
+    /* padding: 2px; */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.personal {
+    align-items: center;
+    position: absolute;
+    float: inherit;
+    height: 600px;
+    width: 1225px;
+    color: #efff;
+    background-color: #96c3d1;
+    font-size: 8pt;
+}
+
+@font-face {
+    font-family: 'antoniolight';
+    src: url('antonio-light-webfont.woff2') format('woff2'), url('antonio-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: unset;
+}
+
+h1 {
+    text-align: center;
+    color: #fdfefe;
+    font-weight: normal;
+    font-size: 18pt;
+    font-family: 'antoniolight';
+    font-style: initial;
+}
+
+p {
+    text-align: center;
+    color: rgb(66, 81, 94);
+    font-weight: normal;
+    font-family: sans-serif;
+    font-style: normal;
+    text-align: right;
+}
+
+.btn {
+    padding: 10px;
+    background: #c6e5ee;
+    outline: none;
+    font-size: 11px;
+    border: none;
+    color: rgb(66, 81, 94);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #567f85;
+}
+

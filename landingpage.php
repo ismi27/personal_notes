@@ -16,9 +16,9 @@
     <nav class="navbar">
         <h1>Personal Notes</h1>
         <div class="nav-menu">
-        <a href="landingpage.php"><button class="btn" style="background: transparent; color: black">Home</button></a>
+            <a href="landingpage.php"><button class="btn" style="background: transparent; color: black">Home</button></a>
             <div class="input-group">
-            <a href="aboutus.php"><button class="btn" style="background: transparent; color: black">About Us</button></a>
+                <a href="aboutus.php"><button class="btn" style="background: transparent; color: black">About Us</button></a>
             </div>
             <a href="login.php"><button class="btn">Log In</button></a>
         </div>
