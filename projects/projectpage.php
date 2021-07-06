@@ -1,7 +1,7 @@
 <?php
 
 /** @var Connection $connection */
-$connection = require_once 'pp-connection.php';
+$connection = require_once 'prp-connection.php';
 // Read notes from database
 $notes = $connection->getNotes();
 
@@ -23,15 +23,15 @@ if (isset($_GET['id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style/style-personalpage.css">
+    <link rel="stylesheet" href="style-projectpage.css">
 </head>
 <body>
 <div>
-    <form class="new-note" action="pp-create.php" method="post">
+    <form class="new-note" action="prp-create.php" method="post">
         <input type="hidden" name="id" value="<?php echo $currentNote['id'] ?>">
         <input type="text" name="title" placeholder="Note title" autocomplete="off"
                value="<?php echo $currentNote['title'] ?>">
-        <textarea name="description" cols="54" rows="30"
+        <textarea name="description" cols="39" rows="30"
                   placeholder="Note Description"><?php echo $currentNote['description'] ?></textarea>
         <button>
             <?php if ($currentNote['id']): ?>
@@ -57,7 +57,7 @@ if (isset($_GET['id'])) {
 echo date('d/m/Y H:i', strtotime($note['create_date']))
 
 ?></small>
-                <form action="pp-delete.php" method="post">
+                <form action="prp-delete.php" method="post">
                     <input type="hidden" name="id" value="<?php echo $note['id'] ?>">
                     <button class="close">X</button>
                 </form>
