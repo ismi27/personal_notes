@@ -9,11 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style-landingpage.css">
+    <link rel="stylesheet" href="style/style-landingpage.css">
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar" style="background-image: url(image/bg-lp2.png);">
         <h1>Personal Notes</h1>
         <div class="nav-menu">
             <a href="landingpage.php"><button class="btn" style="background: transparent; color: black">Home</button></a>
@@ -24,7 +24,7 @@
         </div>
 
     </nav>
-    <section class="hero-container">
+    <section class="hero-container" style="background-image: url(image/bg-lp1.png);">
         <div>
             <div>
                 <h1>Stay Productive
@@ -36,7 +36,7 @@
             </section>
         </div>
     </section>
-    <section class="description-container">
+    <section class="description-container" style="background-image: url(image/bg-lp3.png);">
         <div>
             <div>
                 <h2> Do it all with Personal Notes</h2>
@@ -46,11 +46,11 @@
                 <p class="font-weight-bold">Read more</p>
             </div>
         </div>
-        <img src="note.png" alt="prototype">
+        <img src="image/note.png" alt="prototype">
     </section>
     <section class="content-container">
         <div class="card">
-            <img src="note1.png" alt="card1">
+            <img src="image/note1.png" alt="card1">
             <div class="card-body">
                 <h3>Get your personal task</h3>
                 <p>You can write all your stories, personal notes, cellphone numbers in this personal category, of course you can change the name....</p>
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="note2.png" alt="card2">
+            <img src="image/note2.png" alt="card2">
             <div class="card-body">
                 <h3>Do you have a new project?</h3>
                 <p>You can write a whole new project whether it's description, requirements, deadlines etc. in this project category, of course you can change the name....</p>
@@ -72,7 +72,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="note3.png" alt="card3">
+            <img src="image/note3.png" alt="card3">
             <div class="card-body">
                 <h3>Write all done task</h3>
                 <p>You can write down all the notes that need to be corrected in an effort to complete this new project, etc. in this in progress category, of course you can change the name....</p>

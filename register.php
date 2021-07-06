@@ -51,13 +51,13 @@ if (isset($_POST['submit'])) {
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="style-loginregister.css">
+    <link rel="stylesheet" type="text/css" href="style/style-loginregister.css">
     <style type="text/css">
         body {
             position: relative;
             width: auto;
             min-height: auto;
-            background-image: url(bg-register.png);
+            background-image: url(image/bg-register.png);
             background-position: center;
             background-size: cover;
             justify-content: right;
@@ -68,14 +68,13 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar" style="background-image: url(image/bg-lp2.png);">
         <h1>Personal Notes</h1>
         <div class="nav-menu">
             <a href="landingpage.php"><button class="btn" style="background: transparent; color: black">Home</button></a>
             <div class="input-group">
                 <a href="aboutus.php"><button class="btn" style="background: transparent; color: black">About Us</button></a>
             </div>
-            <a href="login.php"><button class="btn">Log In</button></a>
         </div>
 
     </nav>

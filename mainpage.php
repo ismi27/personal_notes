@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 3 - Ismi Rizki Sopiyanti</title>
-    <link rel="stylesheet" href="style-mainpage.css">
+    <link rel="stylesheet" href="style/style-mainpage.css">
 
 </head>
 
@@ -24,7 +24,7 @@
         </div>
         <div class="personal">
             <button class="btn">
-                <h1 onclick="location.href='personalpage.php';">P E R S O N A L</h1>
+                <h1 onclick="location.href='personal/personalpage.php';">P E R S O N A L</h1>
             </button>
 
         </div>
@@ -37,22 +37,22 @@
         </div>
         <div class="projects">
             <button class="btn">
-                <h1 style="color: #fdfefe; font-weight: normal;padding-top: 10px;">P R O J E C T S</h1>
+                <h1 onclick="location.href='projects/projectpage.php';" style="color: #fdfefe; font-weight: normal;padding-top: 10px;">P R O J E C T S</h1>
             </button>
         </div>
         <div class="inprogress">
             <button class="btn">
-                <p class="pp">I N<span style="letter-spacing: 15px;"> </span>P R O G R E S S</p>
+                <p onclick="location.href='inprogress/inprogresspage.php';" class="pp">I N<span style="letter-spacing: 15px;"> </span>P R O G R E S S</p>
             </button>
         </div>
         <div class="work">
             <button class="btn">
-                <h1 style="color: #fdfefe; font-weight: normal;padding-top: 10px;">W O R K</h1>
+                <h1 onclick="location.href='work/workpage.php';" style="color: #fdfefe; font-weight: normal;padding-top: 10px;">W O R K</h1>
             </button>
         </div>
         <div class="finished">
             <button class="btn">
-                <h1 style="color: #fdfefe; font-weight: normal;padding-top: 10px;">F I N I S H E D</h1>
+                <h1 onclick="location.href='finished/finishedpage.php';" style="color: #fdfefe; font-weight: normal;padding-top: 10px;">F I N I S H E D</h1>
             </button>
         </div>
         <noscript>You need to enable JavaScript to view the full site.</noscript>

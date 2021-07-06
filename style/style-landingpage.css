@@ -14,7 +14,6 @@
 }
 
 .navbar {
-    background-image: url(bg-lp2.png);
     height: 80px;
     display: flex;
     padding: 0 13%;
@@ -37,7 +36,6 @@
 }
 
 .hero-container {
-    background-image: url(bg-lp1.png);
     padding: 0 10%;
     min-height: 100vh;
     background-position: center;
@@ -72,7 +70,6 @@
 }
 
 .description-container {
-    background-image: url(bg-lp3.png);
     height: 280px;
     width: auto;
     background-position: top;
@@ -191,7 +188,7 @@
 }
 
 footer {
-    background-image: url(bg-lp4.png);
+    background-image: url(image/bg-lp4.png);
     width: auto;
     background-position: bottom;
     background-size: cover;
